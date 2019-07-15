@@ -137,9 +137,9 @@ CREATE TABLE `account_tbl` (
 
 ```xml
       <properties>
-          <seata.version>0.6.1</seata.version>
-          <dubbo.alibaba.version>2.6.5</dubbo.alibaba.version>
-          <dubbo.registry.nacos.version>0.0.2</dubbo.registry.nacos.version>
+          <seata.version>0.7.0</seata.version>
+          <dubbo.alibaba.version>2.7.2</dubbo.alibaba.version>
+          <dubbo.registry.nacos.version>2.7.2</dubbo.registry.nacos.version>
        </properties>
         
        <dependency>
@@ -179,7 +179,7 @@ CREATE TABLE `account_tbl` (
            <version>${dubbo.registry.nacos.version}</version>
        </dependency>
 ```
-**说明:** 由于当前 apache-dubbo 与 dubbo-registry-nacos jar存在兼容性问题，需要排除 seata-dubbo 中的 apache.dubbo 依赖并手动引入 alibaba-dubbo，后续 apache-dubbo(2.7.1+) 将兼容 dubbo-registry-nacos。在 Seata 中 seata-dubbo jar 支持 apache.dubbo，seata-dubbo-alibaba jar 支持 alibaba-dubbo。
+**说明:** 由于当前 apache-dubbo 与 dubbo-registry-nacos jar存在兼容性问题，需要排除 seata-dubbo 中的 apache.dubbo 依赖并手动引入 alibaba-dubbo，后续 apache-dubbo(2.7.2+) 将兼容 dubbo-registry-nacos。在 Seata 中 seata-dubbo jar 支持 apache.dubbo，seata-dubbo-alibaba jar 支持 alibaba-dubbo。
 
 
 #### Step 4 微服务 Provider Spring配置

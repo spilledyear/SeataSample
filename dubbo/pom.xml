@@ -40,8 +40,9 @@
             <artifactId>zkclient</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba</groupId>
+            <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-registry-nacos</artifactId>
+            <version>2.7.2</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba.spring</groupId>

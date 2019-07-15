@@ -27,8 +27,8 @@
     <artifactId>seata-samples-HA</artifactId>
     <name>seata-samples-HA ${project.version}</name>
     <properties>
-        <dubbo.alibaba.version>2.6.5</dubbo.alibaba.version>
-        <dubbo.registry.nacos.version>0.0.2</dubbo.registry.nacos.version>
+        <dubbo.alibaba.version>2.7.2</dubbo.alibaba.version>
+        <dubbo.registry.nacos.version>2.7.2</dubbo.registry.nacos.version>
     </properties>
 
     <dependencies>
@@ -39,7 +39,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba</groupId>
+            <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
             <version>${dubbo.alibaba.version}</version>
         </dependency>
